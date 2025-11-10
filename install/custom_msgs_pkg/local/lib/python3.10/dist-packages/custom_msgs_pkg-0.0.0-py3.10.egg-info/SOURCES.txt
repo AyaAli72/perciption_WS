@@ -1,0 +1,11 @@
+setup.py
+custom_msgs_pkg/__init__.py
+custom_msgs_pkg.egg-info/PKG-INFO
+custom_msgs_pkg.egg-info/SOURCES.txt
+custom_msgs_pkg.egg-info/dependency_links.txt
+custom_msgs_pkg.egg-info/top_level.txt
+custom_msgs_pkg/msg/__init__.py
+custom_msgs_pkg/msg/_bounding_box.py
+custom_msgs_pkg/msg/_detection3_d_list.py
+custom_msgs_pkg/msg/_detection_list.py
+custom_msgs_pkg/msg/_object3_d.py

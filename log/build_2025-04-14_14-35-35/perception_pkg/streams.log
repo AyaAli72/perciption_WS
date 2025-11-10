@@ -1,0 +1,23 @@
+[0.597s] Invoking command in '/home/mido/Pictures/Aya workspace Version 1/aya_ws/src/perception_pkg': PYTHONPATH=/home/mido/Pictures/Aya workspace Version 1/aya_ws/build/perception_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mido/Pictures/Aya workspace Version 1/aya_ws/install/perception_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/perception_pkg build --build-base /home/mido/Pictures/Aya workspace Version 1/aya_ws/build/perception_pkg/build install --record /home/mido/Pictures/Aya workspace Version 1/aya_ws/build/perception_pkg/install.log --single-version-externally-managed install_data
+[0.816s] running egg_info
+[0.816s] writing ../../build/perception_pkg/perception_pkg.egg-info/PKG-INFO
+[0.817s] writing dependency_links to ../../build/perception_pkg/perception_pkg.egg-info/dependency_links.txt
+[0.817s] writing entry points to ../../build/perception_pkg/perception_pkg.egg-info/entry_points.txt
+[0.817s] writing requirements to ../../build/perception_pkg/perception_pkg.egg-info/requires.txt
+[0.817s] writing top-level names to ../../build/perception_pkg/perception_pkg.egg-info/top_level.txt
+[0.819s] reading manifest file '../../build/perception_pkg/perception_pkg.egg-info/SOURCES.txt'
+[0.820s] writing manifest file '../../build/perception_pkg/perception_pkg.egg-info/SOURCES.txt'
+[0.820s] running build
+[0.820s] running build_py
+[0.821s] running install
+[0.821s] running install_lib
+[0.822s] running install_data
+[0.822s] running install_egg_info
+[0.823s] removing '/home/mido/Pictures/Aya workspace Version 1/aya_ws/install/perception_pkg/lib/python3.10/site-packages/perception_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.824s] Copying ../../build/perception_pkg/perception_pkg.egg-info to /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/perception_pkg/lib/python3.10/site-packages/perception_pkg-0.0.0-py3.10.egg-info
+[0.824s] running install_scripts
+[0.840s] Installing cam_stream script to /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/perception_pkg/lib/perception_pkg
+[0.841s] Installing depth_estimator script to /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/perception_pkg/lib/perception_pkg
+[0.841s] Installing object_detector script to /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/perception_pkg/lib/perception_pkg
+[0.841s] writing list of installed files to '/home/mido/Pictures/Aya workspace Version 1/aya_ws/build/perception_pkg/install.log'
+[0.864s] Invoked command in '/home/mido/Pictures/Aya workspace Version 1/aya_ws/src/perception_pkg' returned '0': PYTHONPATH=/home/mido/Pictures/Aya workspace Version 1/aya_ws/build/perception_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mido/Pictures/Aya workspace Version 1/aya_ws/install/perception_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/perception_pkg build --build-base /home/mido/Pictures/Aya workspace Version 1/aya_ws/build/perception_pkg/build install --record /home/mido/Pictures/Aya workspace Version 1/aya_ws/build/perception_pkg/install.log --single-version-externally-managed install_data

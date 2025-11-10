@@ -1,0 +1,25 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/custom_msgs_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs_pkg/msg/detail/dds_fastrtps/bounding_box__type_support.cpp.o"
+  "CMakeFiles/custom_msgs_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs_pkg/msg/detail/dds_fastrtps/bounding_box__type_support.cpp.o.d"
+  "CMakeFiles/custom_msgs_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs_pkg/msg/detail/dds_fastrtps/detection3_d_list__type_support.cpp.o"
+  "CMakeFiles/custom_msgs_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs_pkg/msg/detail/dds_fastrtps/detection3_d_list__type_support.cpp.o.d"
+  "CMakeFiles/custom_msgs_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs_pkg/msg/detail/dds_fastrtps/detection_list__type_support.cpp.o"
+  "CMakeFiles/custom_msgs_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs_pkg/msg/detail/dds_fastrtps/detection_list__type_support.cpp.o.d"
+  "CMakeFiles/custom_msgs_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs_pkg/msg/detail/dds_fastrtps/object3_d__type_support.cpp.o"
+  "CMakeFiles/custom_msgs_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs_pkg/msg/detail/dds_fastrtps/object3_d__type_support.cpp.o.d"
+  "libcustom_msgs_pkg__rosidl_typesupport_fastrtps_cpp.pdb"
+  "libcustom_msgs_pkg__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/custom_msgs_pkg/msg/detail/bounding_box__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/custom_msgs_pkg/msg/detail/dds_fastrtps/bounding_box__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/custom_msgs_pkg/msg/detail/dds_fastrtps/detection3_d_list__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/custom_msgs_pkg/msg/detail/dds_fastrtps/detection_list__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/custom_msgs_pkg/msg/detail/dds_fastrtps/object3_d__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/custom_msgs_pkg/msg/detail/detection3_d_list__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/custom_msgs_pkg/msg/detail/detection_list__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/custom_msgs_pkg/msg/detail/object3_d__rosidl_typesupport_fastrtps_cpp.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/custom_msgs_pkg__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

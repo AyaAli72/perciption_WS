@@ -1,0 +1,6 @@
+[console_scripts]
+cam_stream = perception_pkg.camera_streamer:cam_stream
+depth_estimator = perception_pkg.depth_estimator:main
+object_detector = perception_pkg.object_detector_2d:main
+perception_processor = perception_pkg.perception_processor:main
+

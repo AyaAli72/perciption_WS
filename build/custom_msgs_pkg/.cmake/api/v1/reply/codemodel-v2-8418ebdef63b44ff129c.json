@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-514089fd6e6f29786e60.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "custom_msgs_pkg__py",
+					"jsonFile" : "directory-custom_msgs_pkg__py-1b432f168d432289fbf4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/mido/Pictures/Aya workspace Version 1/aya_ws/build/custom_msgs_pkg/custom_msgs_pkg__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "custom_msgs_pkg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_custom_msgs_pkg_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_custom_msgs_pkg_egg-388747f3ca4560105798.json",
+					"name" : "ament_cmake_python_build_custom_msgs_pkg_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_custom_msgs_pkg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_custom_msgs_pkg-97a61cc1822a207a50ed.json",
+					"name" : "ament_cmake_python_copy_custom_msgs_pkg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_msgs_pkg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_msgs_pkg-6ef39695d5d48ba14bcf.json",
+					"name" : "custom_msgs_pkg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_msgs_pkg__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_msgs_pkg__cpp-3f2ba2023775d8c842f9.json",
+					"name" : "custom_msgs_pkg__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "custom_msgs_pkg__py::@7b2f043baa5e9152167a",
+					"jsonFile" : "target-custom_msgs_pkg__py-23b410676d477512cea7.json",
+					"name" : "custom_msgs_pkg__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_msgs_pkg__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_msgs_pkg__rosidl_generator_c-5d895ed5ba359fa6f6fc.json",
+					"name" : "custom_msgs_pkg__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_msgs_pkg__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_msgs_pkg__rosidl_generator_py-4a25b2595a14a8afde19.json",
+					"name" : "custom_msgs_pkg__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_msgs_pkg__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_msgs_pkg__rosidl_typesupport_c-cfe36b6001f337eb9333.json",
+					"name" : "custom_msgs_pkg__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_msgs_pkg__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_msgs_pkg__rosidl_typesupport_c__pyext-bb3cd172283b1759b8a0.json",
+					"name" : "custom_msgs_pkg__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_msgs_pkg__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_msgs_pkg__rosidl_typesupport_cpp-0ebcd016fc94c2ac8901.json",
+					"name" : "custom_msgs_pkg__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_msgs_pkg__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_msgs_pkg__rosidl_typesupport_fastrtps_c-e22b439c89b305366df2.json",
+					"name" : "custom_msgs_pkg__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_msgs_pkg__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_msgs_pkg__rosidl_typesupport_fastrtps_c__pyext-79e1b50ba025d919d68e.json",
+					"name" : "custom_msgs_pkg__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_msgs_pkg__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_msgs_pkg__rosidl_typesupport_fastrtps_cpp-819a91131455a7c2d778.json",
+					"name" : "custom_msgs_pkg__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_msgs_pkg__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_msgs_pkg__rosidl_typesupport_introspection_c-14d10b767a67990dd4e3.json",
+					"name" : "custom_msgs_pkg__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_msgs_pkg__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_msgs_pkg__rosidl_typesupport_introspection_c__pyext-db3b5cbb8572f134228e.json",
+					"name" : "custom_msgs_pkg__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_msgs_pkg__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_msgs_pkg__rosidl_typesupport_introspection_cpp-6027f87ba894ca1647cb.json",
+					"name" : "custom_msgs_pkg__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_msgs_pkg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_msgs_pkg_uninstall-a543755baee1f5e6afff.json",
+					"name" : "custom_msgs_pkg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-5730e853ed49eb6ffeac.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mido/Pictures/Aya workspace Version 1/aya_ws/build/custom_msgs_pkg",
+		"source" : "/home/mido/Pictures/Aya workspace Version 1/aya_ws/src/custom_msgs_pkg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

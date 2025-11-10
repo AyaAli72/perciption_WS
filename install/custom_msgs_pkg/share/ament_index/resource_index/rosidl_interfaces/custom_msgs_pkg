@@ -1,0 +1,8 @@
+msg/BoundingBox.idl
+msg/Detection3DList.idl
+msg/DetectionList.idl
+msg/Object3D.idl
+msgs/BoundingBox.msg
+msgs/Detection3DList.msg
+msgs/DetectionList.msg
+msgs/Object3D.msg

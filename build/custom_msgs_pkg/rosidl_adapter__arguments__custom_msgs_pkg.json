@@ -1,0 +1,9 @@
+{
+  "package_name": "custom_msgs_pkg",
+  "non_idl_tuples": [
+    "/home/mido/Pictures/Aya workspace Version 1/aya_ws/src/custom_msgs_pkg:msgs/BoundingBox.msg",
+    "/home/mido/Pictures/Aya workspace Version 1/aya_ws/src/custom_msgs_pkg:msgs/DetectionList.msg",
+    "/home/mido/Pictures/Aya workspace Version 1/aya_ws/src/custom_msgs_pkg:msgs/Object3D.msg",
+    "/home/mido/Pictures/Aya workspace Version 1/aya_ws/src/custom_msgs_pkg:msgs/Detection3DList.msg"
+  ]
+}

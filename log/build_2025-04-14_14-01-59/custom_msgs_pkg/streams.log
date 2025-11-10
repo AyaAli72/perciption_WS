@@ -1,0 +1,259 @@
+[0.019s] Invoking command in '/home/mido/Pictures/Aya workspace Version 1/aya_ws/build/custom_msgs_pkg': CMAKE_PREFIX_PATH=/home/mido/Pictures/Aya workspace Version 1/aya_ws/install/perception_stack_pkg:/home/mido/Pictures/Aya workspace Version 1/aya_ws/install/perception_pkg:/opt/ros/humble /usr/bin/cmake /home/mido/Pictures/Aya workspace Version 1/aya_ws/src/custom_msgs_pkg -DCMAKE_INSTALL_PREFIX=/home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg
+[0.090s] -- The C compiler identification is GNU 11.4.0
+[0.162s] -- The CXX compiler identification is GNU 11.4.0
+[0.172s] -- Detecting C compiler ABI info
+[0.270s] -- Detecting C compiler ABI info - done
+[0.277s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.278s] -- Detecting C compile features
+[0.278s] -- Detecting C compile features - done
+[0.282s] -- Detecting CXX compiler ABI info
+[0.392s] -- Detecting CXX compiler ABI info - done
+[0.400s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.401s] -- Detecting CXX compile features
+[0.402s] -- Detecting CXX compile features - done
+[0.405s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.590s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.703s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.750s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.758s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.768s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.783s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.803s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.835s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.165s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.602s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.760s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.788s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.790s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.821s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.821s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.821s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.821s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.848s] -- Found PythonExtra: .so  
+[1.903s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.929s] -- Added test 'lint_cmake' to check CMake code style
+[1.931s] -- Added test 'xmllint' to check XML markup files
+[1.935s] -- Configuring done
+[1.977s] -- Generating done
+[1.990s] -- Build files have been written to: /home/mido/Pictures/Aya workspace Version 1/aya_ws/build/custom_msgs_pkg
+[1.999s] Invoked command in '/home/mido/Pictures/Aya workspace Version 1/aya_ws/build/custom_msgs_pkg' returned '0': CMAKE_PREFIX_PATH=/home/mido/Pictures/Aya workspace Version 1/aya_ws/install/perception_stack_pkg:/home/mido/Pictures/Aya workspace Version 1/aya_ws/install/perception_pkg:/opt/ros/humble /usr/bin/cmake /home/mido/Pictures/Aya workspace Version 1/aya_ws/src/custom_msgs_pkg -DCMAKE_INSTALL_PREFIX=/home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg
+[2.001s] Invoking command in '/home/mido/Pictures/Aya workspace Version 1/aya_ws/build/custom_msgs_pkg': CMAKE_PREFIX_PATH=/home/mido/Pictures/Aya workspace Version 1/aya_ws/install/perception_stack_pkg:/home/mido/Pictures/Aya workspace Version 1/aya_ws/install/perception_pkg:/opt/ros/humble /usr/bin/cmake --build /home/mido/Pictures/Aya workspace Version 1/aya_ws/build/custom_msgs_pkg -- -j16 -l16
+[2.054s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.068s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.077s] [  5%] Built target ament_cmake_python_copy_custom_msgs_pkg
+[2.385s] [ 10%] [32mBuilding C object CMakeFiles/custom_msgs_pkg__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs_pkg/msg/detail/bounding_box__functions.c.o[0m
+[2.386s] [ 10%] [32mBuilding C object CMakeFiles/custom_msgs_pkg__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs_pkg/msg/detail/detection_list__functions.c.o[0m
+[2.386s] [ 10%] Built target custom_msgs_pkg__cpp
+[2.399s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.399s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.399s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.407s] running egg_info
+[2.408s] creating custom_msgs_pkg.egg-info
+[2.408s] writing custom_msgs_pkg.egg-info/PKG-INFO
+[2.408s] writing dependency_links to custom_msgs_pkg.egg-info/dependency_links.txt
+[2.408s] writing top-level names to custom_msgs_pkg.egg-info/top_level.txt
+[2.409s] writing manifest file 'custom_msgs_pkg.egg-info/SOURCES.txt'
+[2.412s] reading manifest file 'custom_msgs_pkg.egg-info/SOURCES.txt'
+[2.413s] writing manifest file 'custom_msgs_pkg.egg-info/SOURCES.txt'
+[2.444s] [ 20%] [32m[1mLinking C shared library libcustom_msgs_pkg__rosidl_generator_c.so[0m
+[2.454s] [ 20%] Built target ament_cmake_python_build_custom_msgs_pkg_egg
+[2.491s] [ 20%] Built target custom_msgs_pkg__rosidl_generator_c
+[2.504s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.504s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.505s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.667s] [ 30%] [32mBuilding CXX object CMakeFiles/custom_msgs_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msgs_pkg/msg/bounding_box__type_support.cpp.o[0m
+[2.669s] [ 33%] [32mBuilding CXX object CMakeFiles/custom_msgs_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msgs_pkg/msg/detection_list__type_support.cpp.o[0m
+[2.687s] [ 35%] [32mBuilding CXX object CMakeFiles/custom_msgs_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msgs_pkg/msg/detail/bounding_box__type_support.cpp.o[0m
+[2.690s] [ 38%] [32mBuilding CXX object CMakeFiles/custom_msgs_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msgs_pkg/msg/detail/detection_list__type_support.cpp.o[0m
+[2.714s] [ 41%] [32mBuilding CXX object CMakeFiles/custom_msgs_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs_pkg/msg/detail/dds_fastrtps/bounding_box__type_support.cpp.o[0m
+[2.715s] [ 43%] [32mBuilding CXX object CMakeFiles/custom_msgs_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs_pkg/msg/detail/dds_fastrtps/detection_list__type_support.cpp.o[0m
+[2.780s] [ 46%] [32mBuilding CXX object CMakeFiles/custom_msgs_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msgs_pkg/msg/bounding_box__type_support.cpp.o[0m
+[2.783s] [ 48%] [32mBuilding CXX object CMakeFiles/custom_msgs_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msgs_pkg/msg/detection_list__type_support.cpp.o[0m
+[2.820s] [ 51%] [32mBuilding CXX object CMakeFiles/custom_msgs_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs_pkg/msg/detail/detection_list__type_support_c.cpp.o[0m
+[2.823s] [ 53%] [32mBuilding CXX object CMakeFiles/custom_msgs_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs_pkg/msg/detail/bounding_box__type_support_c.cpp.o[0m
+[2.838s] [ 56%] [32m[1mLinking CXX shared library libcustom_msgs_pkg__rosidl_typesupport_c.so[0m
+[2.856s] [ 61%] [32mBuilding C object CMakeFiles/custom_msgs_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msgs_pkg/msg/detail/detection_list__type_support.c.o[0m
+[2.856s] [ 61%] [32mBuilding C object CMakeFiles/custom_msgs_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msgs_pkg/msg/detail/bounding_box__type_support.c.o[0m
+[2.919s] [ 61%] Built target custom_msgs_pkg__rosidl_typesupport_c
+[2.926s] [ 64%] [32m[1mLinking C shared library libcustom_msgs_pkg__rosidl_typesupport_introspection_c.so[0m
+[2.983s] [ 64%] Built target custom_msgs_pkg__rosidl_typesupport_introspection_c
+[3.013s] [ 66%] [32m[1mLinking CXX shared library libcustom_msgs_pkg__rosidl_typesupport_cpp.so[0m
+[3.065s] [ 66%] Built target custom_msgs_pkg__rosidl_typesupport_cpp
+[3.181s] [ 69%] [32m[1mLinking CXX shared library libcustom_msgs_pkg__rosidl_typesupport_introspection_cpp.so[0m
+[3.220s] [ 71%] [32m[1mLinking CXX shared library libcustom_msgs_pkg__rosidl_typesupport_fastrtps_c.so[0m
+[3.237s] [ 74%] [32m[1mLinking CXX shared library libcustom_msgs_pkg__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.272s] [ 74%] Built target custom_msgs_pkg__rosidl_typesupport_introspection_cpp
+[3.313s] [ 74%] Built target custom_msgs_pkg__rosidl_typesupport_fastrtps_c
+[3.329s] [ 74%] Built target custom_msgs_pkg__rosidl_typesupport_fastrtps_cpp
+[3.357s] [ 74%] Built target custom_msgs_pkg
+[3.383s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.780s] [ 76%] Built target custom_msgs_pkg__py
+[3.808s] [ 82%] [32mBuilding C object CMakeFiles/custom_msgs_pkg__rosidl_generator_py.dir/rosidl_generator_py/custom_msgs_pkg/msg/_bounding_box_s.c.o[0m
+[3.808s] [ 82%] [32mBuilding C object CMakeFiles/custom_msgs_pkg__rosidl_generator_py.dir/rosidl_generator_py/custom_msgs_pkg/msg/_detection_list_s.c.o[0m
+[3.926s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/custom_msgs_pkg/libcustom_msgs_pkg__rosidl_generator_py.so[0m
+[3.979s] [ 84%] Built target custom_msgs_pkg__rosidl_generator_py
+[4.004s] [ 92%] [32mBuilding C object CMakeFiles/custom_msgs_pkg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_msgs_pkg/_custom_msgs_pkg_s.ep.rosidl_typesupport_c.c.o[0m
+[4.004s] [ 92%] [32mBuilding C object CMakeFiles/custom_msgs_pkg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_msgs_pkg/_custom_msgs_pkg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.004s] [ 92%] [32mBuilding C object CMakeFiles/custom_msgs_pkg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_msgs_pkg/_custom_msgs_pkg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.120s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_msgs_pkg/custom_msgs_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.120s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_msgs_pkg/custom_msgs_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.121s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_msgs_pkg/custom_msgs_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.169s] [100%] Built target custom_msgs_pkg__rosidl_typesupport_fastrtps_c__pyext
+[4.170s] [100%] Built target custom_msgs_pkg__rosidl_typesupport_c__pyext
+[4.170s] [100%] Built target custom_msgs_pkg__rosidl_typesupport_introspection_c__pyext
+[4.187s] Invoked command in '/home/mido/Pictures/Aya workspace Version 1/aya_ws/build/custom_msgs_pkg' returned '0': CMAKE_PREFIX_PATH=/home/mido/Pictures/Aya workspace Version 1/aya_ws/install/perception_stack_pkg:/home/mido/Pictures/Aya workspace Version 1/aya_ws/install/perception_pkg:/opt/ros/humble /usr/bin/cmake --build /home/mido/Pictures/Aya workspace Version 1/aya_ws/build/custom_msgs_pkg -- -j16 -l16
+[4.200s] Invoking command in '/home/mido/Pictures/Aya workspace Version 1/aya_ws/build/custom_msgs_pkg': CMAKE_PREFIX_PATH=/home/mido/Pictures/Aya workspace Version 1/aya_ws/install/perception_stack_pkg:/home/mido/Pictures/Aya workspace Version 1/aya_ws/install/perception_pkg:/opt/ros/humble /usr/bin/cmake --install /home/mido/Pictures/Aya workspace Version 1/aya_ws/build/custom_msgs_pkg
+[4.210s] -- Install configuration: ""
+[4.210s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/share/ament_index/resource_index/rosidl_interfaces/custom_msgs_pkg
+[4.211s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg
+[4.211s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg/msg
+[4.211s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg/msg/bounding_box.h
+[4.211s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg/msg/rosidl_generator_c__visibility_control.h
+[4.211s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg/msg/detection_list.h
+[4.212s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg/msg/detail
+[4.212s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg/msg/detail/bounding_box__type_support.h
+[4.212s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg/msg/detail/bounding_box__functions.h
+[4.212s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg/msg/detail/detection_list__struct.h
+[4.212s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg/msg/detail/detection_list__functions.h
+[4.212s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg/msg/detail/detection_list__functions.c
+[4.213s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg/msg/detail/bounding_box__struct.h
+[4.213s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg/msg/detail/bounding_box__functions.c
+[4.213s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg/msg/detail/detection_list__type_support.h
+[4.214s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/share/custom_msgs_pkg/environment/library_path.sh
+[4.214s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/share/custom_msgs_pkg/environment/library_path.dsv
+[4.214s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/lib/libcustom_msgs_pkg__rosidl_generator_c.so
+[4.215s] -- Set runtime path of "/home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/lib/libcustom_msgs_pkg__rosidl_generator_c.so" to ""
+[4.215s] -- Up-to-date: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg
+[4.215s] -- Up-to-date: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg/msg
+[4.215s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.215s] -- Up-to-date: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg/msg/detail
+[4.215s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg/msg/detail/bounding_box__rosidl_typesupport_fastrtps_c.h
+[4.215s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg/msg/detail/detection_list__rosidl_typesupport_fastrtps_c.h
+[4.215s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/lib/libcustom_msgs_pkg__rosidl_typesupport_fastrtps_c.so
+[4.216s] -- Set runtime path of "/home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/lib/libcustom_msgs_pkg__rosidl_typesupport_fastrtps_c.so" to ""
+[4.216s] -- Up-to-date: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg
+[4.217s] -- Up-to-date: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg/msg
+[4.217s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg/msg/detection_list.hpp
+[4.217s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.217s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg/msg/bounding_box.hpp
+[4.217s] -- Up-to-date: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg/msg/detail
+[4.217s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg/msg/detail/bounding_box__struct.hpp
+[4.218s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg/msg/detail/detection_list__traits.hpp
+[4.218s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg/msg/detail/detection_list__struct.hpp
+[4.218s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg/msg/detail/detection_list__builder.hpp
+[4.218s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg/msg/detail/detection_list__type_support.hpp
+[4.218s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg/msg/detail/bounding_box__traits.hpp
+[4.218s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg/msg/detail/bounding_box__builder.hpp
+[4.218s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg/msg/detail/bounding_box__type_support.hpp
+[4.218s] -- Up-to-date: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg
+[4.218s] -- Up-to-date: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg/msg
+[4.218s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.219s] -- Up-to-date: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg/msg/detail
+[4.219s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg/msg/detail/bounding_box__rosidl_typesupport_fastrtps_cpp.hpp
+[4.219s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg/msg/detail/dds_fastrtps
+[4.219s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg/msg/detail/detection_list__rosidl_typesupport_fastrtps_cpp.hpp
+[4.219s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/lib/libcustom_msgs_pkg__rosidl_typesupport_fastrtps_cpp.so
+[4.220s] -- Set runtime path of "/home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/lib/libcustom_msgs_pkg__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.220s] -- Up-to-date: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg
+[4.220s] -- Up-to-date: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg/msg
+[4.220s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.220s] -- Up-to-date: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg/msg/detail
+[4.220s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg/msg/detail/detection_list__rosidl_typesupport_introspection_c.h
+[4.221s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg/msg/detail/detection_list__type_support.c
+[4.221s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg/msg/detail/bounding_box__rosidl_typesupport_introspection_c.h
+[4.221s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg/msg/detail/bounding_box__type_support.c
+[4.221s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/lib/libcustom_msgs_pkg__rosidl_typesupport_introspection_c.so
+[4.221s] -- Set runtime path of "/home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/lib/libcustom_msgs_pkg__rosidl_typesupport_introspection_c.so" to ""
+[4.221s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/lib/libcustom_msgs_pkg__rosidl_typesupport_c.so
+[4.222s] -- Set runtime path of "/home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/lib/libcustom_msgs_pkg__rosidl_typesupport_c.so" to ""
+[4.222s] -- Up-to-date: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg
+[4.222s] -- Up-to-date: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg/msg
+[4.222s] -- Up-to-date: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg/msg/detail
+[4.222s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg/msg/detail/detection_list__rosidl_typesupport_introspection_cpp.hpp
+[4.222s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg/msg/detail/detection_list__type_support.cpp
+[4.223s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg/msg/detail/bounding_box__type_support.cpp
+[4.223s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/include/custom_msgs_pkg/custom_msgs_pkg/msg/detail/bounding_box__rosidl_typesupport_introspection_cpp.hpp
+[4.223s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/lib/libcustom_msgs_pkg__rosidl_typesupport_introspection_cpp.so
+[4.224s] -- Set runtime path of "/home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/lib/libcustom_msgs_pkg__rosidl_typesupport_introspection_cpp.so" to ""
+[4.224s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/lib/libcustom_msgs_pkg__rosidl_typesupport_cpp.so
+[4.225s] -- Set runtime path of "/home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/lib/libcustom_msgs_pkg__rosidl_typesupport_cpp.so" to ""
+[4.225s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/share/custom_msgs_pkg/environment/pythonpath.sh
+[4.225s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/share/custom_msgs_pkg/environment/pythonpath.dsv
+[4.225s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/local/lib/python3.10/dist-packages/custom_msgs_pkg-0.0.0-py3.10.egg-info
+[4.225s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/local/lib/python3.10/dist-packages/custom_msgs_pkg-0.0.0-py3.10.egg-info/PKG-INFO
+[4.225s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/local/lib/python3.10/dist-packages/custom_msgs_pkg-0.0.0-py3.10.egg-info/top_level.txt
+[4.226s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/local/lib/python3.10/dist-packages/custom_msgs_pkg-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.226s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/local/lib/python3.10/dist-packages/custom_msgs_pkg-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.226s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/local/lib/python3.10/dist-packages/custom_msgs_pkg
+[4.226s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/local/lib/python3.10/dist-packages/custom_msgs_pkg/_custom_msgs_pkg_s.ep.rosidl_typesupport_introspection_c.c
+[4.226s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/local/lib/python3.10/dist-packages/custom_msgs_pkg/_custom_msgs_pkg_s.ep.rosidl_typesupport_c.c
+[4.227s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/local/lib/python3.10/dist-packages/custom_msgs_pkg/__init__.py
+[4.227s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/local/lib/python3.10/dist-packages/custom_msgs_pkg/custom_msgs_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.227s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/local/lib/python3.10/dist-packages/custom_msgs_pkg/libcustom_msgs_pkg__rosidl_generator_py.so
+[4.227s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/local/lib/python3.10/dist-packages/custom_msgs_pkg/_custom_msgs_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.227s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/local/lib/python3.10/dist-packages/custom_msgs_pkg/custom_msgs_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.227s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/local/lib/python3.10/dist-packages/custom_msgs_pkg/custom_msgs_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.228s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/local/lib/python3.10/dist-packages/custom_msgs_pkg/msg
+[4.228s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/local/lib/python3.10/dist-packages/custom_msgs_pkg/msg/_bounding_box.py
+[4.228s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/local/lib/python3.10/dist-packages/custom_msgs_pkg/msg/_detection_list_s.c
+[4.228s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/local/lib/python3.10/dist-packages/custom_msgs_pkg/msg/__init__.py
+[4.228s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/local/lib/python3.10/dist-packages/custom_msgs_pkg/msg/_detection_list.py
+[4.228s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/local/lib/python3.10/dist-packages/custom_msgs_pkg/msg/_bounding_box_s.c
+[4.269s] Listing '/home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/local/lib/python3.10/dist-packages/custom_msgs_pkg'...
+[4.269s] Compiling '/home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/local/lib/python3.10/dist-packages/custom_msgs_pkg/__init__.py'...
+[4.269s] Listing '/home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/local/lib/python3.10/dist-packages/custom_msgs_pkg/msg'...
+[4.269s] Compiling '/home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/local/lib/python3.10/dist-packages/custom_msgs_pkg/msg/__init__.py'...
+[4.269s] Compiling '/home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/local/lib/python3.10/dist-packages/custom_msgs_pkg/msg/_bounding_box.py'...
+[4.269s] Compiling '/home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/local/lib/python3.10/dist-packages/custom_msgs_pkg/msg/_detection_list.py'...
+[4.274s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/local/lib/python3.10/dist-packages/custom_msgs_pkg/custom_msgs_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.275s] -- Set runtime path of "/home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/local/lib/python3.10/dist-packages/custom_msgs_pkg/custom_msgs_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.275s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/local/lib/python3.10/dist-packages/custom_msgs_pkg/custom_msgs_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.276s] -- Set runtime path of "/home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/local/lib/python3.10/dist-packages/custom_msgs_pkg/custom_msgs_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.276s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/local/lib/python3.10/dist-packages/custom_msgs_pkg/custom_msgs_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.277s] -- Set runtime path of "/home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/local/lib/python3.10/dist-packages/custom_msgs_pkg/custom_msgs_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.277s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/lib/libcustom_msgs_pkg__rosidl_generator_py.so
+[4.277s] -- Set runtime path of "/home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/lib/libcustom_msgs_pkg__rosidl_generator_py.so" to ""
+[4.277s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/share/custom_msgs_pkg/msg/BoundingBox.idl
+[4.278s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/share/custom_msgs_pkg/msg/DetectionList.idl
+[4.278s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/share/custom_msgs_pkg/msgs/BoundingBox.msg
+[4.278s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/share/custom_msgs_pkg/msgs/DetectionList.msg
+[4.278s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/share/ament_index/resource_index/package_run_dependencies/custom_msgs_pkg
+[4.279s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/share/ament_index/resource_index/parent_prefix_path/custom_msgs_pkg
+[4.279s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/share/custom_msgs_pkg/environment/ament_prefix_path.sh
+[4.279s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/share/custom_msgs_pkg/environment/ament_prefix_path.dsv
+[4.279s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/share/custom_msgs_pkg/environment/path.sh
+[4.280s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/share/custom_msgs_pkg/environment/path.dsv
+[4.280s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/share/custom_msgs_pkg/local_setup.bash
+[4.280s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/share/custom_msgs_pkg/local_setup.sh
+[4.280s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/share/custom_msgs_pkg/local_setup.zsh
+[4.281s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/share/custom_msgs_pkg/local_setup.dsv
+[4.281s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/share/custom_msgs_pkg/package.dsv
+[4.281s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/share/ament_index/resource_index/packages/custom_msgs_pkg
+[4.281s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/share/custom_msgs_pkg/cmake/export_custom_msgs_pkg__rosidl_generator_cExport.cmake
+[4.282s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/share/custom_msgs_pkg/cmake/export_custom_msgs_pkg__rosidl_generator_cExport-noconfig.cmake
+[4.282s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/share/custom_msgs_pkg/cmake/export_custom_msgs_pkg__rosidl_typesupport_fastrtps_cExport.cmake
+[4.282s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/share/custom_msgs_pkg/cmake/export_custom_msgs_pkg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.282s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/share/custom_msgs_pkg/cmake/export_custom_msgs_pkg__rosidl_generator_cppExport.cmake
+[4.283s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/share/custom_msgs_pkg/cmake/export_custom_msgs_pkg__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.283s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/share/custom_msgs_pkg/cmake/export_custom_msgs_pkg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.283s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/share/custom_msgs_pkg/cmake/custom_msgs_pkg__rosidl_typesupport_introspection_cExport.cmake
+[4.283s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/share/custom_msgs_pkg/cmake/custom_msgs_pkg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.284s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/share/custom_msgs_pkg/cmake/custom_msgs_pkg__rosidl_typesupport_cExport.cmake
+[4.284s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/share/custom_msgs_pkg/cmake/custom_msgs_pkg__rosidl_typesupport_cExport-noconfig.cmake
+[4.284s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/share/custom_msgs_pkg/cmake/custom_msgs_pkg__rosidl_typesupport_introspection_cppExport.cmake
+[4.284s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/share/custom_msgs_pkg/cmake/custom_msgs_pkg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.285s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/share/custom_msgs_pkg/cmake/custom_msgs_pkg__rosidl_typesupport_cppExport.cmake
+[4.285s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/share/custom_msgs_pkg/cmake/custom_msgs_pkg__rosidl_typesupport_cppExport-noconfig.cmake
+[4.285s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/share/custom_msgs_pkg/cmake/export_custom_msgs_pkg__rosidl_generator_pyExport.cmake
+[4.285s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/share/custom_msgs_pkg/cmake/export_custom_msgs_pkg__rosidl_generator_pyExport-noconfig.cmake
+[4.285s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/share/custom_msgs_pkg/cmake/rosidl_cmake-extras.cmake
+[4.286s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/share/custom_msgs_pkg/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.286s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/share/custom_msgs_pkg/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.286s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/share/custom_msgs_pkg/cmake/ament_cmake_export_libraries-extras.cmake
+[4.286s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/share/custom_msgs_pkg/cmake/ament_cmake_export_targets-extras.cmake
+[4.287s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/share/custom_msgs_pkg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.287s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/share/custom_msgs_pkg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.287s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/share/custom_msgs_pkg/cmake/custom_msgs_pkgConfig.cmake
+[4.287s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/share/custom_msgs_pkg/cmake/custom_msgs_pkgConfig-version.cmake
+[4.287s] -- Installing: /home/mido/Pictures/Aya workspace Version 1/aya_ws/install/custom_msgs_pkg/share/custom_msgs_pkg/package.xml
+[4.292s] Invoked command in '/home/mido/Pictures/Aya workspace Version 1/aya_ws/build/custom_msgs_pkg' returned '0': CMAKE_PREFIX_PATH=/home/mido/Pictures/Aya workspace Version 1/aya_ws/install/perception_stack_pkg:/home/mido/Pictures/Aya workspace Version 1/aya_ws/install/perception_pkg:/opt/ros/humble /usr/bin/cmake --install /home/mido/Pictures/Aya workspace Version 1/aya_ws/build/custom_msgs_pkg
